@@ -1,0 +1,73 @@
+React for frontend
+Redux for state management tool
+Antd for components
+Node js for backend
+express for Backend framework 
+mongo db as a database
+----------------------------------------------------
+
+Creating a new react application inside the folder Appointment_App
+Command - npx create-react-app projectname/Foldername
+
+----------------------------------------------------
+
+Move to the client 
+command - cd client
+
+Run the application and check using command npm start
+
+----------------------------------------------------
+Go get rid of all the basic react app navigate to react app file and delete the header part 
+which will be located inside SRC folder
+
+----------------------------------------------------
+Delete non usable file including app.css inside src and logo svg  alomg with the imported things 
+in app.js 
+
+----------------------------------------------------
+
+Navigate to the html file and remove all unnecessary stuffs like comments and then change the title of 
+the application as your project name .
+
+----------------------------------------------------
+Now we will be working on backend part so 
+- come out of client folder  by cd..
+- open a new terminal for backend
+- run command npm init to include all backend packages 
+----------------------------------------------------
+Now we have to install some of the dependencies like mongoose express dotenv jsonwebtoken
+command  npm i mongoose express dotenv jsonwebtoken
+express is for framework
+mongoose if for database purpose
+jsonwebtoken is for suthentication tokens 
+dotenv is used for storing secured values
+----------------------------------------------------
+Now install nodemon - which is a command-line tool that helps with the speedy development of Node. js applications.
+command-npm i nodemon
+----------------------------------------------------
+Now Creating an entry point for te backend as server.js
+in this we have to write much things for express , app, port and listen 
+command to confirm weather it is working or not  nodemon server 
+----------------------------------------------------
+Time to setup Mongo Db 
+- Open google 
+- create database and connect . paste it in .env file  
+----------------------------------------------------
+write some code in dbconfig and server.js
+----------------------------------------------------
+do not forget to check the position of files
+----------------------------------------------------
+Now time to setup antd 
+----------------------------------------------------
+Then create a folder pages and inside it create login and register page 
+----------------------------------------------------
+Install react router dom
+----------------------------------------------------
+now create both pages and fields inside form checkout the register page 
+----------------------------------------------------
+we are now done with the  login and the register page now we will see how to build models for login and registration
+api on the backend .
+----------------------------------------------------
+we are done with the route folder and the models folder so now we will be installing another thing as decrypt
+for hashing the password    npm i bcrypt
+----------------------------------------------------
